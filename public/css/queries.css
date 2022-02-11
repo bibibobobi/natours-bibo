@@ -1,0 +1,124 @@
+/***********************************/
+/* BELOW 1344px (Smaller desktops)*/
+/***********************************/
+
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-tertirary {
+    font-size: 2.5rem;
+  }
+
+  .card-container {
+    max-width: 120rem;
+    grid-gap: 6rem;
+  }
+}
+
+/***********************************/
+/* BELOW 1200px (Landscape Tablets)*/
+/***********************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .card-container {
+    max-width: 90rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8rem;
+  }
+
+  nav.nav.nav--tours {
+    margin-bottom: 0;
+  }
+}
+
+/***********************************/
+/* BELOW 944px (Tablets)*/
+/***********************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+
+  .card-container {
+    max-width: 90rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+  }
+
+  nav.nav.nav--tours {
+    margin-bottom: 0;
+  }
+}
+
+/***********************************/
+/* BELOW 704px (Small Tablets)*/
+/***********************************/
+@media (max-width: 44em) {
+  html {
+    font-size: 45%;
+  }
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+
+  .card-container {
+    max-width: 80rem;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/***********************************/
+/* BELOW 608px (mobiles)*/
+/***********************************/
+@media (max-width: 38em) {
+  html {
+    font-size: 45%;
+  }
+
+  .heading-primary {
+    font-size: 2rem;
+  }
+  .card-container {
+    max-width: 40rem;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .section-description {
+    flex-direction: column;
+  }
+
+  .heading-box__group {
+    margin-top: 1.5rem;
+  }
+
+  .header {
+    height: 10rem;
+  }
+
+  .cta__text {
+    margin: 1.5rem 0;
+  }
+
+  .cta__content {
+    display: block;
+  }
+}

@@ -314,25 +314,25 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
-@media only screen and (max-width: 62.5em) {
+/* @media only screen and (max-width: 62.5em) {
   .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
-}
+} */
 .header__logo img {
   height: 3.5rem;
 }
-@media only screen and (max-width: 62.5em) {
+/* @media only screen and (max-width: 62.5em) {
   .header__logo {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1;
     margin-bottom: 1.5rem;
   }
-}
+} */
 
 .section-header {
   position: relative;
@@ -1328,4 +1328,9 @@ body {
 .signup-remider {
   font-size: 14px;
   margin-top: 20px;
+}
+
+.signup-link,
+.signup-link:active {
+  color: #55c57a;
 }
