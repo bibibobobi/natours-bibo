@@ -1366,7 +1366,9 @@ body {
   .card-container {
     max-width: 90rem;
     margin: 0 auto;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 8rem 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 8rem;
   }
@@ -1391,6 +1393,7 @@ body {
 
   .card-container {
     max-width: 90rem;
+    -ms-grid-columns: 1fr 5rem 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5rem;
   }
@@ -1414,6 +1417,7 @@ body {
   .card-container {
     max-width: 80rem;
     grid-gap: 4rem;
+    -ms-grid-columns: 1fr 4rem 1fr;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -1432,6 +1436,7 @@ body {
   .card-container {
     max-width: 40rem;
     grid-gap: 4rem;
+    -ms-grid-columns: 1fr;
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -1440,6 +1445,9 @@ body {
   }
 
   .section-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
